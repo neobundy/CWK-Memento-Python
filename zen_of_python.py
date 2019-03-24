@@ -8,7 +8,7 @@ import platform  # importing platform package
 def zen_of_python():
     """Print the Zen of Python"""
 
-    import this
+    import this # print the zen of python
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
         print("Hello there!")
         print("Good to see ya!")
 
-    print("You're on {}", platform.system())
+    print("You're on {}.".format(platform.system()))
     print("You have Python Version {}.".format(platform.python_version()))
 
 
