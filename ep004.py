@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Wankyu Choi - Creative Works of Knowledge 2019
-# https://www.youtube.com/wankyuchoi
 #
+# https://www.youtube.com/wankyuchoi
 # Episode 004 - Pattern Recognition Skill
 #
 
