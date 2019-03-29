@@ -92,7 +92,7 @@ def check_leap_year():
             print("Are you stupid or what?")
             continue
         elif year >= 10000:
-            print("Nah...Mankind won't exsist that long.")
+            print("Nah...Mankind won't exist that long.")
             continue
 
         if is_leap_year1(year) and is_leap_year2(year):
