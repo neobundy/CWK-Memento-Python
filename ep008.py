@@ -2,8 +2,8 @@
 # Wankyu Choi - Creative Works of Knowledge 2019
 # https://www.youtube.com/wankyuchoi
 #
-# Episode 008 - Operators and Conditionals
 #
+# Episode 008 - Operators and Conditionals
 
 import math
 
