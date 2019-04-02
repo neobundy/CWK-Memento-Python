@@ -101,8 +101,8 @@ def main():
     # infinite loop
     # infinite_loop()
 
-    # put the break on loop after 100 iterations
-    # infinite_loop(False, 100)
+    # put the break on loop after 1000 iterations
+    # infinite_loop(False, 1000)
 
     # sum_numbers()
     high_low_game()
