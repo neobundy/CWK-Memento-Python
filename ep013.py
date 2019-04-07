@@ -3,7 +3,7 @@
 # https://www.youtube.com/wankyuchoi
 #
 #
-# Episode 012 - Data Types: Numeric Types
+# Episode 013 - Data Types: Numeric Types
 
 
 import math
