@@ -7,6 +7,7 @@
 
 import calendar
 
+
 def irange(*args):
     """
     A range() implementation with the inclusive *stop* argument.
@@ -35,7 +36,7 @@ def irange(*args):
 def main():
     """Entry Point"""
 
-    for i in irange(): print(i)
+    # for i in irange(): print(i)
     # for i in irange(1,10,2,2): print(i)
     # for i in irange(10): print(i)
     # for i in irange(3,20): print(i)
@@ -48,16 +49,18 @@ def main():
     # print(next(generator_obj))
     # print(next(generator_obj))
     # print(next(generator_obj))
+    # print(next(generator_obj))
+    # print(next(generator_obj))
 
-    # years = (year for year in irange(2019, 2019+12) if calendar.isleap(year))
+    years = (year for year in irange(2019, 2019+12) if calendar.isleap(year))
     # print(type(years))
     # print(next(years))
     # print(next(years))
     # print(next(years))
     # print(next(years))
-    # print(len(list(years)))
-    # years = (year for year in irange(2019, 2019+12) if calendar.isleap(year))
-    # next(years)
+    print(len(list(years)))
+    years = (year for year in irange(2019, 2019+12) if calendar.isleap(year))
+    print(next(years))
 
 
 if __name__ == '__main__':
