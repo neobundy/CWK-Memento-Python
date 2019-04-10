@@ -18,7 +18,7 @@ def main():
         print("Type of t is {}.".format(type(t)))
 
     if not f:
-        print("Type of ff is {}.".format(type(f)))
+        print("Type of f is {}.".format(type(f)))
 
     tt = 1
     ff = 0
