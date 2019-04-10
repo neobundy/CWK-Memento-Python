@@ -60,9 +60,9 @@ def main():
 
     print("This is Episode {} ".format(14))
     print("This is Episode {0:>10} ".format(14))
-    print("This is Episode {0:03} ".format(14))
+    print("This is Episode {0:04} ".format(14))
 
-    print("You have {:+,} points left.".format(-10000))
+    print("You have {:+,} points left.".format(10000))
     print("You have {:+,.3f} points left.".format(-10000))
     print("You have {:x} points left(Hexadecimal).".format(-10000))
     print("You have {:o} points left(Octal).".format(-10000))
@@ -123,7 +123,7 @@ def main():
 
     print(censored_response)
 
-    password = "1234"
+    password = "a1234$"
 
     if password.isnumeric():
         print("No alphabet found.")
@@ -134,7 +134,7 @@ def main():
     if password.isalnum():
         print("Password must contain at least one special character.")
 
-    password_with_whitespaces = '  dkf3dslkfj1293\t\t    '
+    password_with_whitespaces = '  dkf3dsl\tkfj1293\t\t    '
 
     print("[", password_with_whitespaces.strip(), "]")
 
