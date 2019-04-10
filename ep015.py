@@ -18,21 +18,20 @@ def main():
         print("Type of t is {}.".format(type(t)))
 
     if not f:
-        print("Type of t is {}.".format(type(f)))
+        print("Type of ff is {}.".format(type(f)))
 
     tt = 1
     ff = 0
 
     if tt:
-        print("Type of t is {}.".format(type(tt)))
+        print("Type of tt is {}.".format(type(tt)))
 
     if not ff:
-        print("Type of t is {}.".format(type(ff)))
+        print("Type of ff is {}.".format(type(ff)))
 
     x = 5
     y = 7
     t_or_f = x > y
-
 
     print(type(t_or_f))
 
