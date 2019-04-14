@@ -40,7 +40,7 @@ def main():
     else:
         print("{1} is greater than {0}.".format(x, y))
 
-    n = None
+    n = None    # null
 
     if n:
         print("There's something.".format(type(n)))
