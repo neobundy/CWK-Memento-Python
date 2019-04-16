@@ -63,7 +63,7 @@ def split_filename(filename):
     """
     Split filename into name and extension parts
 
-    :param name: filename
+    :param filename: filename
     :return: name & extension tuple
     """
 
