@@ -26,6 +26,13 @@ def copy_text_file(source, dest):
     outfile = open(dest, "wt")
     # outfile = open(dest, "at")
 
+    # newline/linefeed: \n
+    # carriage return: \r
+    # mac, linux: \n
+    # windows: \r\n
+    # mac, linux: 'wankyu\n'
+    # windows: 'wankyu\r\n'
+
     for l in infile:
         # print(l.rstrip(), file=outfile)
         # print(l, end='', file=outfile)
